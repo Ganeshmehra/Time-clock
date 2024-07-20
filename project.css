@@ -1,0 +1,56 @@
+ @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+body{
+    background-image: url(pexels-yuliya-strizhkina-1198802.jpg);
+    background-size: cover;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+   
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.text{
+     color: #000000;
+     text-align: center;
+     font-size: 2.5rem;
+}
+.col{
+    margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-weight: 500;
+        font-size: 1.2rem;
+        font-style: oblique;
+        color: #cf0202;
+}
+.col div{
+    text-align: center;
+}
+input {
+    width: 50%;
+    height: 50px;
+    background-color:#b0c6c68a;
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
